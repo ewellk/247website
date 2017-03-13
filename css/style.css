@@ -1,0 +1,129 @@
+body {
+	background-color: #DFFFED;
+}
+
+.topBar {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #497F61;
+	width: 100%;
+	color: white;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+}
+
+.featuredVideo {
+	display: inline;
+	object-fit: cover;
+    overflow: hidden;
+    height: 200px;
+	width: 100%;
+	top: -190px;
+	position: relative;
+}
+
+.fullWidth {
+	width: 100%;
+}
+
+.secondBar {
+	font-family: 'Josefin Sans', sans-serif;
+	position: relative;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	top: -180px;
+	color: #707F77;
+}
+
+#darkerColor {
+	display: inline;
+	color: #4E5953;
+}
+
+#italic {
+	display: inline;
+	color: #4E5953;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+}
+
+.featuredTitle{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	color: white;
+	top: -175px;
+}
+
+.pre {
+	position: relative;
+	top: -250px;
+	left: 8%;
+	height: 100px;
+	width: 50px;
+}
+
+.next{
+	position: relative;
+	top: -250px;
+	left: 82.5%;
+	height:100px;
+	width: 50px;
+}
+
+.crop {
+    width: 100%;
+	height: 600px;
+	object-fit: cover;
+    overflow: hidden;
+}
+
+.logo {
+	font-size: 25px;
+}
+
+.searchBox {
+	height: 100%;
+}
+
+.small {
+	height: 15px;
+	width: 15px;
+}
+
+.infinite-carousel {
+	display: inline-block;
+	 height:200px%;
+
+}
+.infinite-carousel .list{
+	display: inline-block;
+    width:200%;
+	height:400px;
+    overflow:visible;
+}
+.infinite-carousel .viewport{
+  width:200%;
+  overflow:hidden;
+  margin-left: -54%;
+}
+.infinite-carousel .list .item{
+	object-fit: cover;
+    width:16.9%;
+    text-align: center;
+    vertical-align: middle;
+    margin-right:28px;
+    float: left;
+}
+
+.r{
+    background-color: red;
+}
+.g{
+    background-color: #cf5;
+}
+.b{
+    background-color: blue;
+}
