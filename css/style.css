@@ -113,11 +113,12 @@ body {
 
 .infinite-carousel {
 	display: inline-block;
-	 height:200px%;
+	overflow: hidden; 
 
 }
 .infinite-carousel .list{
 	display: inline-block;
+	overflow: hidden; 
     width:200%;
 	height:400px;
     overflow:visible;
