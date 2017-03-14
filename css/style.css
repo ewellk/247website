@@ -2,14 +2,15 @@ body {
 	background-color: #DFFFED;
 }
 
-/*.caption{
+.caption{
 	font-family: 'Josefin Sans', sans-serif;
-	color: white;
-	font-size: 20px;
-	top: -240px;
+	color: #497F61;
+	font-size: 15px;
+	top: -210px;
 	position: relative;
 	text-align: center;
-}*/
+	background-color: white;
+}
 
 .topBar {
 	font-family: 'Josefin Sans', sans-serif;
@@ -48,14 +49,9 @@ body {
 #darkerColor {
 	display: inline;
 	color: #4E5953;
-}
-
-#darkerColor2 {
-	display: inline;
-	color: #4E5953;
 	font-weight: bold;
 	font-size: 40px;
-	top: -300px;
+	top: -280px;
 }
 
 #italic {
@@ -126,11 +122,11 @@ body {
 .infinite-carousel .viewport{
   width:200%;
   overflow:hidden;
-  margin-left: -54%;
+  margin-left: -51.1%;
 }
 .infinite-carousel .list .item{
 	object-fit: cover;
-    width:16.9%;
+    width:16.5%;
     text-align: center;
     vertical-align: middle;
     margin-right:28px;
